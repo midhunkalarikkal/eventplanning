@@ -97,7 +97,7 @@ ul li.active a
 	position: relative;
 	width: 100%;
 	height: 100vh;
-	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("img/img6.JPG");
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/img/bg.png");
 	background-size: cover;
 }
 
@@ -154,7 +154,7 @@ ul li.active a
 	position: relative;
 	width: 100%;
 	height: 100vh;
-	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/img4.JPG);
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/img/intro3.jpg);
 	background-size: cover;
 }
 
@@ -272,7 +272,7 @@ ul li.active a
 }
 
 .about-section{
-    background:  linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/pic.jpg) no-repeat left;
+    background:  linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/img/pic.jpg) no-repeat left;
     background-size: 55%;
     background-color: #000000;
     overflow: hidden;
@@ -340,7 +340,7 @@ ul li.active a
 }
 
 .contact-section{
-  background: url(img/bg.png) no-repeat center;
+  background: url(/img/img3.jpg) no-repeat center;
   background-size: cover;
   padding: 40px 0;
 }
