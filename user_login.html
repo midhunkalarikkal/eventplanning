@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Sign In</title>
+        <link rel="stylesheet" type="text/css" href="css/register_page_style.css">
+    </head>
+    <style>
+    
+        *{margin: 0; padding: 0;}
+        body{background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("img/img2.JPG"); font-family: sans-serif; height: 100vh; background-size: cover;
+                background-position: center;}
+
+
+        
+        .form-wrap{ width: 320px; background: #000000; padding: 40px 20px; box-sizing: border-box; position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+        h1{text-align: center; color: #fff; font-weight: normal; margin-bottom: 20px;}
+        
+        input{width: 100%; background: none; border: 1px solid #fff; border-radius: 3px; padding: 6px 15px; box-sizing: border-box; margin-bottom: 20px; font-size: 16px; color: #fff;}
+        
+        input[type="submit"]{ background: #bac675; border: 0; cursor: pointer; color: #3e3d3d;}
+        input[type="submit"]:hover{ background: #a4b15c; transition: .6s;}
+        
+        ::placeholder{color: #fff;}
+
+        .form-wrap .text
+        {
+            color: #fff;
+            margin-left: 60px;
+        }
+
+
+        .button
+        {
+            position: absolute;
+            top: 93%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        .submit-button
+        {
+            border: 0px solid #fff;
+            padding: 3px 20px;
+            color: red;
+            text-decoration: none;
+            transition: 0.6s ease;
+            background-color: #000;
+            background: rgba(76, 175, 80, 0);
+            font-size: 15px;
+
+        }
+     
+    </style>
+    <body>
+        <div class="form-wrap">
+            <form>
+                <h1>Sign In</h1>
+                <input type="Email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="submit" value="Sign In">
+            </form>
+            <div class="text">
+                <p> Dont have an account?</p>
+                <div class="button">
+                    <button id="myButton1" class="float-left submit-button" >Sign Up</button>
+                </div>
+                <script type="text/javascript">
+                document.getElementById("myButton1").onclick = function () {
+                location.href = "user_register.html";
+                };
+                </script>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

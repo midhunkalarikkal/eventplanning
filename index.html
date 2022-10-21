@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Event Planner</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https:/`/cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<script src="https://kit.fontawesome.com/a54d2cbf95.js"></script>
+</head>
+<body>
+	<header>
+		<a href="#" class="logo">EventplanneR</a>
+			<ul>
+				<li><a class="active" href="#Home">Home</a></li>
+				<li><a href="user_login.html">Sign in</a></li>
+				<li><a href="user_register.html">Sign up</a></li>
+				<li><a href="#About">About</a></li>
+				<li><a href="#Contact">Cotact</a></li>
+			</ul>
+	</header>
+		
+	<section id="Home" class="banner1">
+		<div class="title">
+				<h1>
+					EVENT PLANNER
+				</h1>
+		</div>
+		<div class="ue">
+			<h3>
+				Upcoming Events
+			</h3>
+		</div>
+		<i class="far fa-2x fa-caret-square-down"></i>
+	</section>
+	<section class="banner2">
+		<div class="container">
+			<div class="box">
+				<div class="one">
+					<h3>
+					1
+					</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="two">
+					<h3>
+						2
+					</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="three">
+					<h3>
+						3
+					</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="four">
+					<h3>
+						4
+					</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="five">
+					<h3>
+						5
+					</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="six">
+					<h3>
+						6
+					</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="banner3">
+		<div class="b1text">
+			<h4>REGISTER EVENT</h4>
+				<p >Hey guys What are you waiting for ? Lets Register your<br>
+					 evet by clicking the Register button below <br>
+				</p>
+		</div>
+		<div class="button1">
+			<button id="myButton1" class="float-left submit-button1" >Register</button>
+		</div>
+		<script type="text/javascript">
+		    document.getElementById("myButton1").onclick = function () {
+		    location.href = "event_registration.html";
+		    };
+		</script>
+		<div class="b2text">
+			<h4>JOIN EVENT</h4>
+			<p >Are you looking for an event to join<br>
+					Click the Join button and provide the details<br>
+			</p>
+		</div>
+		<div class="button2">
+			<button id="myButton2" class="float-left submit-button2" >Join</button>
+		</div>
+		<script type="text/javascript">
+	    	document.getElementById("myButton2").onclick = function () {
+	        location.href = "event_join.html";
+	    	};
+		</script>
+	</section>
+
+	<section id="About" class="about">
+		<div class="about-section">
+        	<div class="inner-container">
+            	<h1>About Us</h1>
+            		<p class="text">
+                		Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit ducimus, enim inventore earum, eligendi nostrum pariatur necessitatibus eius dicta a voluptates sit deleniti autem error eos totam nisi neque voluptates sit deleniti autem error eos totam nisi neque.
+           			 </p>
+            		<div class="skills">
+                	<span>MES cse</span>
+                	<span> Btech students</span>
+                	<span>Developers</span>
+            	</div>
+       		</div>
+    	</div>
+	</section>
+
+	<section id="Contact" class="contact">
+        <div class="contact-section">
+  			<h1>Contact Us</h1>
+ 				 <div class="border"></div>
+  					<form class="contact-form" action="index.html" method="post">
+	    				<input type="text" class="contact-form-text" placeholder="Your name">
+	   					<input type="email" class="contact-form-text" placeholder="Your email">
+	    				<input type="text" class="contact-form-text" placeholder="Your phone">
+	    				<textarea class="contact-form-text"placeholder="Your message"></textarea>
+	    				<input type="submit" class="contact-form-btn" value="Send">
+  					</form>
+				</div>
+				<div class="icons">
+					<a href="#" class="fb">
+						<i class="fab fa-2x fa-facebook-square"></i>
+					</a>
+					<a href="#" class="insta">
+						<i class="fab fa-2x fa-instagram"></i>
+					</a>
+					<a href="#" class="whatsapp">
+						<i class="fab fa-2x fa-whatsapp-square"></i>
+					</a>
+					<a href="#" class="twiter">
+						<i class="fab fa-2x fa-twitter"></i>
+					</a>
+					<div class="cp">
+					<h5>© copyright owned by MS creations</h5>
+					<a href="#Home" class="to-top">
+    				<i class="fas fa-2x fa-chevron-up"></i>
+  				</a>
+  				<script src="main.js"></script>
+				</div>
+				</div>
+
+				
+	</section>
+</body>
+</html>
